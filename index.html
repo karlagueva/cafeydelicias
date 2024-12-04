@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café y Delicias</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo cafe.jpg" alt="Café y Delicias" class="logo-small">
+                Café y Delicias
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Quiénes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#logo">Logotipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalog">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#location">Ubicación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center text-light">
+        <div class="container">
+            <h1 class="highlight">Bienvenidos a Café y Delicias</h1>
+            <p class="description">Donde la pasión por el café se combina con los sabores más deliciosos</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Quiénes Somos</h2>
+            <p class="text-center">Café y Delicias es una empresa dedicada a ofrecer experiencias únicas
+                 a través de nuestro café y postres. Nuestro compromiso es proporcionar una alta calidad de cafés, 
+                 seleccionados cuidadosamente para satisfacer los paladares más exigentes. Nuestros postres son elaborados 
+                 con ingredientes frescos y de temporada, garantizando una experiencia gastronómica inolvidable.</p>
+            <h3 class="text-center">Equipo de Trabajo</h3>
+            <div class="text-center">
+                <img src="foto proye.jpeg" alt="Miembro del equipo" class="img-fluid" style="width: 150px;">
+                <p><strong>Karla Guevara</strong><br> Fundador y Chef </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Section -->
+    <section id="logo" class="py-5 bg-light">
+        <div class="container text-center">
+            <img src="logo cafe.jpg" alt="Café y Delicias" class="logo-medium mb-3">
+            <p>Representa nuestra esencia como empresa: una taza de café humeante para reflejar calidez y calidad, junto con granos de café y un tenedor, simbolizando la unión de nuestras especialidades en bebidas y alimentos. Los colores cálidos evocan el confort y la autenticidad de nuestra oferta.</p>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Catálogo</h2>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="cafe-espresso.jpg" class="d-block mx-auto w-50" alt="Producto 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Café Espresso</h5>
+                            <p>Intenso y aromático, preparado con granos seleccionados.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="capuchino frio.png" class="d-block mx-auto w-50" alt="Producto 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Capuchino</h5>
+                            <p>Espuma perfecta combinada con el mejor café.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pastel.jpg" class="d-block mx-auto w-50" alt="Producto 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Delicia de chocolate</h5>
+                            <p>Un postre inolvidable con el toque justo de dulzura.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="cafe latte.jpg" class="d-block mx-auto w-50" alt="Producto 4">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Café Latte</h5>
+                            <p>Suave y cremoso, con el toque perfecto de espresso.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="tiramisu.jpg" class="d-block mx-auto w-50" alt="Producto 5">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tiramisu</h5>
+                            <p>Delicioso postre italiano con una mezcla de café y cacao.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="location" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.241805031092!2d-98.25047012612697!3d19.00906365407318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc7614fedd3b9%3A0x10fe8a11803fc9a7!2sCto.%20de%20Las%20Flores%20Nte.%203517%2C%20INFONAVIT%20Mateo%20del%20Regil%20Rodr%C3%ADguez%2C%2072464%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!5e0!3m2!1ses!2smx!4v1733286959884!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <p class="text-center">
+                Síguenos en nuestras redes sociales:
+                <a href="https://facebook.com" target="_blank" class="social-link">Facebook</a> |
+                <a href="https://instagram.com" target="_blank" class="social-link">Instagram</a> |
+                <a href="https://twitter.com" target="_blank" class="social-link">Twitter</a>
+            </p>
+            <p class="text-center">Teléfono: <a href="tel:+1234567890" class="contact-link">+52 222-883-18-06</a></p>
+            <p class="text-center">Correo electrónico: <a href="mailto:info@cafeydelicias.com" class="contact-link">info@cafeydelicias.com</a></p>
+            
+            <form id="contact-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>© 2024 Café y Delicias. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

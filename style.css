@@ -1,0 +1,47 @@
+/* Estilo para el título del Hero */
+.hero .highlight {
+    color: #d2a679; /* Café claro */
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* Cambiar el color del texto en la descripción del Hero */
+.hero .description {
+    color: #000000; /* Negro */
+    font-size: 1rem; /* Tamaño ajustado */
+    margin-top: 10px;
+}
+
+/* Enlaces de contacto y redes sociales */
+.social-link {
+    color:black; /* Negro */
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #ffc107; /* Amarillo dorado */
+}
+
+.contact-link {
+    color: #007bff; /* Azul */
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: #0056b3; /* Azul oscuro */
+}
+
+/* Tamaño del logotipo en la navbar */
+.logo-small {
+    width: 40px; /* Logotipo pequeño */
+    height: auto;
+}
+
+/* Tamaño del logotipo en la sección Logotipo */
+.logo-medium {
+    width: 190px; /* Tamaño promedio */
+    height: auto;
+}
+
+
+
